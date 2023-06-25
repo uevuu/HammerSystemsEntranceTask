@@ -45,7 +45,7 @@ final class UserDefaultsService {
     
     func saveCategory(_ category: [String]) {
         lastCategory = category
-        UserDefaults.standard.set(try? PropertyListEncoder().encode(lastRecipes), forKey: "lastCategory")
+        UserDefaults.standard.set(try? PropertyListEncoder().encode(lastCategory), forKey: "lastCategory")
     }
     func getCategory() -> [String] {
         return lastCategory
