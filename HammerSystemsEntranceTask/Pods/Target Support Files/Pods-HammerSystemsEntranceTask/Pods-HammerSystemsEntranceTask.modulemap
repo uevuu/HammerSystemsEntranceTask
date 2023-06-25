@@ -1,0 +1,6 @@
+framework module Pods_HammerSystemsEntranceTask {
+  umbrella header "Pods-HammerSystemsEntranceTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
